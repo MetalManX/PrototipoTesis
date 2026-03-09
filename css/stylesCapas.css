@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+
+}
+
+.obj {
+	display: flex;
+	align-items: center;
+    padding: 0.6em;
+	color: #fff;
+	border-bottom: 0.2em solid rgb(39, 39, 39);
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.obj:hover {
+    background-color: rgb(39, 39, 39);
+}
+
+.obj > img {
+	width: 5%;
+	margin-right: 0.8em;
+}
+
+/*Codigo.html*/
+.code {
+	background-color: rgb(27, 27, 27);
+	color: #fff;
+}

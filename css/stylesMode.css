@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.obj {
+	display: flex;
+	align-items: center;
+    padding: 0.6em;
+	color: #fff;
+	border-bottom: 0.2em solid rgb(39, 39, 39);
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+.obj:hover {
+    background-color: rgb(39, 39, 39);
+}
+
+.obj > img {
+	width: 10%;
+	margin-right: 0.2em;
+}
+
+/*Codigo.html*/
+nav > a {
+	background-color: rgb(27, 27, 27);
+	padding: 0.1em 0.5em 0.1em 0.5em;
+	color: #fff;
+}
+nav > a:hover {
+	background-color: rgb(39, 39, 39);
+	cursor: pointer;
+}
+.code {
+	height: 100vh;
+	background-color: rgb(27, 27, 27);
+	color: #fff;
+	overflow: scroll;
+}
