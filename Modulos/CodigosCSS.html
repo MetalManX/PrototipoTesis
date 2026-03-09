@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="../css/stylesMode.css">
+</head>
+<nav>
+	<a href="../Modulos/CodigosHTML.html" frameborder="0" width="100%" height="100%">html</a>
+	<a href="../Modulos/CodigosCSS.html" frameborder="0" width="100%" height="100%">css</a>
+</nav>
+<body>
+    <p class="code">
+    *{<br>
+	margin: 0;<br>
+	padding: 0;<br>
+	box-sizing: border-box;<br>
+	text-decoration: none;<br>
+
+}<br><br>
+
+body {<br>
+    background-color: rgb(27, 27, 27);<br>
+}<br><br>
+
+/*interface*/<br>
+.app {<br>
+    display: grid;<br>
+    grid-template-rows: auto 1fr auto;<br>
+    height: 100vh;<br>
+    width: 100vw;<br>
+    overflow: hidden;<br>
+}<br><br>
+
+.color-back {<br>
+    background-color: rgb(54, 54, 54);<br>
+    border-color: rgb(39, 39, 39);<br>
+    border-width: 0.2em;<br>
+    border-style: outset;<br>
+}<br><br>
+
+/* barra de herramientas y barra inferior*/<br>
+.bar-tools, .bar-inf {<br>
+    color: rgb(27, 27, 27);<br>
+    padding: 0.6em;<br>
+}<br><br>
+
+span {<br>
+    background-color: rgb(67, 221, 221);<br>
+    margin: 0.2em;<br>
+    padding: 0.3em;<br>
+    border-radius: 50%;<br>
+    border: 0.2em groove rgb(67, 221, 221);<br>
+}<br><br>
+
+nav > a {<br>
+    color: #fff;<br>
+    padding: 0.3em 0.5em;<br>
+    margin: 0 0.2em;<br>
+}<br>
+nav > a:hover {<br>
+    background-color: rgb(78, 78, 78);<br>
+    border-radius: 10%;<br>
+}<br><br>
+
+/*Barras de modulos, canvas y caracteristicas*/<br>
+.titulo {<br>
+	color: #fff;<br>
+	text-align: center;<br>
+	font-size: 1.5em;<br>
+	padding: 0.2em 0 0.2em 0;<br>
+	border: 0.2em outset rgb(39, 39, 39);<br>
+}<br><br>
+
+.cuerpo {<br>
+    display: grid;<br>
+    grid-template-columns: repeat(3, 1fr);<br>
+    overflow: hidden;<br>
+}<br><br>
+
+    .barra:nth-child(1) {<br>
+        width: 20vw;<br>
+    }<br>
+    .barra:nth-child(2) {<br>
+        padding: 1em;<br>
+        width: 50vw;<br>
+    }<br>
+    .barra:nth-child(2) > div {<br>
+        width: 25em;<br>
+        height: 30em;<br>
+        margin: 2em 0 0 6em;<br>
+        background-color: #fff;<br>
+    }<br><br>
+
+/*Footer*/<br>
+footer {<br>
+    display: flex;<br>
+    justify-content: space-between;<br>
+}<br><br>
+
+p {<br>
+    color: #fff;<br>
+}
+    </p>
+</body>
+</html>
